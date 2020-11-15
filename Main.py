@@ -74,10 +74,16 @@ def user_input():
             user_string = input("paste url or \'c\' to cancel:\n")
             if not user_string == 'c':
                 string_banned = string_banned + "," + user_string
+            else:
+                print("Input error, please type in option")
         elif user_string == "addblock":
             user_string = input("paste url or \'c\' to cancel:\n")
             if not user_string == 'c':
                 string_blocked = string_blocked + "," + user_string
+            else:
+                print("Input error, please type in option")
+        else:
+            print("Input error, please type in option")
 
 
 # Checks time to see whether blocked should be unblocked

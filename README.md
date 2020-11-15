@@ -13,5 +13,5 @@ Might not be doing school instead... but at least I'll be using my time better.
 - [x] Added initialization code!
 - [x] Added editing code!
 - [x] Added basic user interface!
-- [ ] Add "input error" on incorrect user input (currently nothing happens)!
-- [ ] Clean up code and upload to github!
+- [x] Add "input error" on incorrect user input (currently nothing happens)!
+- [x] Clean up code and upload to github!
